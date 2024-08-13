@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-   - host: flyervivek.site
+    - host: flyervivek.site
       http:
         paths:
           - path: /api
